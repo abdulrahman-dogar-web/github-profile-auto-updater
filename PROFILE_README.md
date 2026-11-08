@@ -26,19 +26,20 @@
 
 ## 🧑‍💻 Languages I Use
 
-- <span style="color:#f1e05a">●</span> JavaScript — 2 repos (33%) `██████░░░░░░░░░░░░░░`
-- <span style="color:#e34c26">●</span> HTML — 2 repos (33%) `██████░░░░░░░░░░░░░░`
-- <span style="color:#3572A5">●</span> Python — 1 repo (17%) `███░░░░░░░░░░░░░░░░░`
-- <span style="color:#3178c6">●</span> TypeScript — 1 repo (17%) `███░░░░░░░░░░░░░░░░░`
+- <span style="color:#f1e05a">●</span> JavaScript — 3 repos (38%) `███████░░░░░░░░░░░░░`
+- <span style="color:#e34c26">●</span> HTML — 2 repos (25%) `█████░░░░░░░░░░░░░░░`
+- <span style="color:#3572A5">●</span> Python — 1 repo (12%) `██░░░░░░░░░░░░░░░░░░`
+- <span style="color:#563d7c">●</span> CSS — 1 repo (12%) `██░░░░░░░░░░░░░░░░░░`
+- <span style="color:#3178c6">●</span> TypeScript — 1 repo (12%) `██░░░░░░░░░░░░░░░░░░`
 
 ## 🚀 Latest Projects
 
 | Project | Description | Language | ⭐ Stars | 🍴 Forks | Updated |
 | ------- | ----------- | -------- | -------: | -------: | ------- |
 | [github-profile-auto-updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) | Auto-update GitHub profile README from live repos | <span style="color:#3572A5">●</span> Python | 0 | 0 | 2026-11-08 |
+| [airdrop-hunter](https://github.com/abdulrahman-dogar-web/airdrop-hunter) | Fresh free working crypto airdrops tracker | <span style="color:#563d7c">●</span> CSS | 0 | 0 | 2026-11-08 |
+| [free-llm-gateway](https://github.com/abdulrahman-dogar-web/free-llm-gateway) | Own OpenRouter clone, one unified LLM API key | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
 | [parents-expense-tracker](https://github.com/abdulrahman-dogar-web/parents-expense-tracker) | Parents expense and bill tracker app with meter photo comparison | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
-| [free-llm-gateway](https://github.com/abdulrahman-dogar-web/free-llm-gateway) | Own OpenRouter clone, one unified LLM API key | — | 0 | 0 | 2026-11-08 |
-| [airdrop-hunter](https://github.com/abdulrahman-dogar-web/airdrop-hunter) | Fresh free working crypto airdrops tracker | — | 0 | 0 | 2026-11-08 |
 | [url-shortener](https://github.com/abdulrahman-dogar-web/url-shortener) | URL shortener with analytics and QR codes | — | 0 | 0 | 2026-11-08 |
 | [linkhub](https://github.com/abdulrahman-dogar-web/linkhub) | Link-in-bio and mini store | — | 0 | 0 | 2026-11-08 |
 
@@ -50,4 +51,4 @@
 
 ---
 
-_Last updated: **2026-11-08 14:21 UTC** · Generated automatically by [GitHub Profile Auto-Updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) from live GitHub data._
+_Last updated: **2026-11-08 14:58 UTC** · Generated automatically by [GitHub Profile Auto-Updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) from live GitHub data._
