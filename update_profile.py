@@ -49,6 +49,7 @@ Exit codes: 0 = success, 1 = usage/config error, 2 = GitHub API error.
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import os
 import sys
@@ -163,7 +164,9 @@ def load_config(path: str) -> dict[str, Any]:
     config_path = Path(path)
     if not config_path.exists():
         log(f"Config file '{path}' not found -- using built-in defaults.")
-        return dict(DEFAULTS)
+        # Deep copy: the caller may mutate nested dicts (e.g. social links
+        # when --username differs) and must never mutate module-level DEFAULTS.
+        return copy.deepcopy(DEFAULTS)
     try:
         with config_path.open(encoding="utf-8") as handle:
             user_config = json.load(handle)
@@ -174,6 +177,9 @@ def load_config(path: str) -> dict[str, Any]:
         print(f"Error: '{path}' must contain a JSON object.", file=sys.stderr)
         sys.exit(1)
     config = deep_merge(DEFAULTS, user_config)
+    # Deep copy so later mutation (e.g. --username rewriting social links)
+    # can never write back into module-level DEFAULTS.
+    config = copy.deepcopy(config)
     if not config.get("username"):
         print("Error: 'username' must be set in the config file.", file=sys.stderr)
         sys.exit(1)
