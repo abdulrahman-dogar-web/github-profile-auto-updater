@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Local overrides / secrets — never commit a token
+.env.local
+config.local.json
+*.token
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# NOTE: PROFILE_README.md and example/PROFILE_README.md are INTENTIONALLY
+# tracked — they are the generated output this project exists to produce.

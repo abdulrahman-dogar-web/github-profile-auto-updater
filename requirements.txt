@@ -1,0 +1,7 @@
+# GitHub Profile Auto-Updater — dependencies
+#
+# The script runs on the Python standard library alone. `requests` is
+# optional: when installed it is used for cleaner HTTP handling; when it
+# is absent the script falls back to urllib automatically. Install it
+# for the nicer experience, or skip this file entirely.
+requests>=2.32.0

@@ -1,0 +1,32 @@
+{
+  "bio": "Jack of All Trades ♠ — Master of none, but often better than the master of ONE ⚜️",
+  "display_name": "Mr. Abdul Rahman Dogar",
+  "exclude_archived": true,
+  "exclude_forks": false,
+  "exclude_profile_repo": true,
+  "location": "Pakistan",
+  "max_repos": 6,
+  "sections": {
+    "about": true,
+    "badges": true,
+    "footer": true,
+    "header": true,
+    "languages": true,
+    "latest_projects": true,
+    "social": true,
+    "stats": true
+  },
+  "show_streak": true,
+  "social": {
+    "github": "https://github.com/abdulrahman-dogar-web",
+    "instagram": "",
+    "linkedin": "",
+    "twitter": "",
+    "website": "",
+    "youtube": ""
+  },
+  "stats_theme": "tokyonight",
+  "tagline": "Building in public — one project at a time.",
+  "username": "abdulrahman-dogar-web",
+  "website": ""
+}
