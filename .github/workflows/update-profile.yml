@@ -1,0 +1,59 @@
+name: Update Profile README
+
+# Regenerates PROFILE_README.md (and the example copy) from live GitHub data,
+# then commits the result back to this repository if anything changed.
+# Runs every Monday at 00:00 UTC, on every push that touches the updater or
+# its config, and on demand from the Actions tab.
+
+on:
+  schedule:
+    # Every Monday at 00:00 UTC.
+    - cron: "0 0 * * 1"
+  push:
+    branches:
+      - main
+    paths:
+      - "update_profile.py"
+      - "config.json"
+      - ".github/workflows/update-profile.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies (optional — stdlib fallback works without it)
+        run: pip install -r requirements.txt
+
+      - name: Regenerate profile README
+        env:
+          # The built-in GITHUB_TOKEN is enough: public data only, and it
+          # raises the API limit from 60 to 5,000 requests/hour.
+          # Never put a personal token in this file.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 update_profile.py --output PROFILE_README.md
+          python3 update_profile.py --output example/PROFILE_README.md
+
+      - name: Commit updated README if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add PROFILE_README.md example/PROFILE_README.md
+          if git diff --cached --quiet; then
+            echo "No changes — profile README is already up to date."
+          else
+            git commit -m "chore: auto-update profile README [skip ci]"
+            git push
+          fi
