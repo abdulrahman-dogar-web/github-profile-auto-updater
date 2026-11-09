@@ -6,13 +6,13 @@
 
 📍 Pakistan | 🗓️ On GitHub since 2025-09-14 | 💼 Open to work
 
-[![GitHub followers](https://img.shields.io/badge/Followers-0-181717?style=for-the-badge&logo=github)](https://github.com/abdulrahman-dogar-web?tab=followers) [![Public repos](https://img.shields.io/badge/Repos-13-2ea44f?style=for-the-badge&logo=github)](https://github.com/abdulrahman-dogar-web?tab=repositories) [![Total stars](https://img.shields.io/badge/Stars-0-FFD700?style=for-the-badge&logo=github)](https://github.com/abdulrahman-dogar-web?tab=stars) [![Profile views](https://komarev.com/ghpvc/?username=abdulrahman-dogar-web&style=for-the-badge&color=0e75b6)](https://github.com/abdulrahman-dogar-web)
+[![GitHub followers](https://img.shields.io/badge/Followers-0-181717?style=for-the-badge&logo=github)](https://github.com/abdulrahman-dogar-web?tab=followers) [![Public repos](https://img.shields.io/badge/Repos-14-2ea44f?style=for-the-badge&logo=github)](https://github.com/abdulrahman-dogar-web?tab=repositories) [![Total stars](https://img.shields.io/badge/Stars-0-FFD700?style=for-the-badge&logo=github)](https://github.com/abdulrahman-dogar-web?tab=stars) [![Profile views](https://komarev.com/ghpvc/?username=abdulrahman-dogar-web&style=for-the-badge&color=0e75b6)](https://github.com/abdulrahman-dogar-web)
 
 ## 🙋‍♂️ About Me
 
 - 🔭 I'm currently building projects and learning in public.
 - 🌱 Focus: shipping small, useful tools — and finishing them.
-- ⭐ **0** total stars across **13** public repositories.
+- ⭐ **0** total stars across **14** public repositories.
 - 👥 **0** followers · **0** following.
 
 ## 📊 GitHub Stats
@@ -26,24 +26,24 @@
 
 ## 🧑‍💻 Languages I Use
 
-- <span style="color:#f1e05a">●</span> JavaScript — 3 repos (38%) `███████░░░░░░░░░░░░░`
-- <span style="color:#e34c26">●</span> HTML — 2 repos (25%) `█████░░░░░░░░░░░░░░░`
-- <span style="color:#3572A5">●</span> Python — 1 repo (12%) `██░░░░░░░░░░░░░░░░░░`
-- <span style="color:#563d7c">●</span> CSS — 1 repo (12%) `██░░░░░░░░░░░░░░░░░░`
-- <span style="color:#3178c6">●</span> TypeScript — 1 repo (12%) `██░░░░░░░░░░░░░░░░░░`
+- <span style="color:#f1e05a">●</span> JavaScript — 6 repos (50%) `██████████░░░░░░░░░░`
+- <span style="color:#e34c26">●</span> HTML — 3 repos (25%) `█████░░░░░░░░░░░░░░░`
+- <span style="color:#3572A5">●</span> Python — 1 repo (8%) `█░░░░░░░░░░░░░░░░░░░`
+- <span style="color:#563d7c">●</span> CSS — 1 repo (8%) `█░░░░░░░░░░░░░░░░░░░`
+- <span style="color:#3178c6">●</span> TypeScript — 1 repo (8%) `█░░░░░░░░░░░░░░░░░░░`
 
 ## 🚀 Latest Projects
 
 | Project | Description | Language | ⭐ Stars | 🍴 Forks | Updated |
 | ------- | ----------- | -------- | -------: | -------: | ------- |
-| [github-profile-auto-updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) | Auto-update GitHub profile README from live repos | <span style="color:#3572A5">●</span> Python | 0 | 0 | 2026-11-08 |
-| [airdrop-hunter](https://github.com/abdulrahman-dogar-web/airdrop-hunter) | Fresh free working crypto airdrops tracker | <span style="color:#563d7c">●</span> CSS | 0 | 0 | 2026-11-08 |
-| [free-llm-gateway](https://github.com/abdulrahman-dogar-web/free-llm-gateway) | Own OpenRouter clone, one unified LLM API key | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
+| [watch-party](https://github.com/abdulrahman-dogar-web/watch-party) | — | <span style="color:#e34c26">●</span> HTML | 0 | 0 | 2026-11-08 |
 | [parents-expense-tracker](https://github.com/abdulrahman-dogar-web/parents-expense-tracker) | Parents expense and bill tracker app with meter photo comparison | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
-| [url-shortener](https://github.com/abdulrahman-dogar-web/url-shortener) | URL shortener with analytics and QR codes | — | 0 | 0 | 2026-11-08 |
-| [linkhub](https://github.com/abdulrahman-dogar-web/linkhub) | Link-in-bio and mini store | — | 0 | 0 | 2026-11-08 |
+| [url-shortener](https://github.com/abdulrahman-dogar-web/url-shortener) | URL shortener with analytics and QR codes | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
+| [linkhub](https://github.com/abdulrahman-dogar-web/linkhub) | Link-in-bio and mini store | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
+| [secretdrop](https://github.com/abdulrahman-dogar-web/secretdrop) | Self-destructing secret sharing, one-time links | <span style="color:#f1e05a">●</span> JavaScript | 0 | 0 | 2026-11-08 |
+| [github-profile-auto-updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) | Auto-update GitHub profile README from live repos | <span style="color:#3572A5">●</span> Python | 0 | 0 | 2026-11-08 |
 
-👉 [View all 13 repositories on GitHub](https://github.com/abdulrahman-dogar-web?tab=repositories)
+👉 [View all 14 repositories on GitHub](https://github.com/abdulrahman-dogar-web?tab=repositories)
 
 ## 📫 Connect With Me
 
@@ -51,4 +51,4 @@
 
 ---
 
-_Last updated: **2026-11-08 14:58 UTC** · Generated automatically by [GitHub Profile Auto-Updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) from live GitHub data._
+_Last updated: **2026-11-09 03:45 UTC** · Generated automatically by [GitHub Profile Auto-Updater](https://github.com/abdulrahman-dogar-web/github-profile-auto-updater) from live GitHub data._
